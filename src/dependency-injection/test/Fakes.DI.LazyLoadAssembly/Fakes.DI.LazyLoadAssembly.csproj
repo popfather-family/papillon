@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Papillon.DI.Abstractions\Papillon.DI.Abstractions.csproj" />
+      <ProjectReference Include="..\Fakes.DI.LazyLoadAssembly.Abstractions\Fakes.DI.LazyLoadAssembly.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

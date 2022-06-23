@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{24C1A755-9FF1-46CB-B8FC-C180F513B264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{EF008A8A-DAEC-4E4D-818F-238374C8F106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.DI.Abstractions", "dependency-injection\src\Papillon.DI.Abstractions\Papillon.DI.Abstractions.csproj", "{18174137-78AB-4E18-B822-1CE31F28F2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.DI.Microsoft", "dependency-injection\src\Papillon.DI.Microsoft\Papillon.DI.Microsoft.csproj", "{CAFC26E3-7FBC-416D-A662-20B3F24DD270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fakes.DI.LazyLoadAssembly", "dependency-injection\test\Fakes.DI.LazyLoadAssembly\Fakes.DI.LazyLoadAssembly.csproj", "{16A95419-A50C-4063-B1D7-CBCA008F9581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fakes.DI.LazyLoadAssembly.Abstractions", "dependency-injection\test\Fakes.DI.LazyLoadAssembly.Abstractions\Fakes.DI.LazyLoadAssembly.Abstractions.csproj", "{BD013019-370C-4382-BE29-33DDA469546B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.DI.Microsoft.Test", "dependency-injection\test\Papillon.DI.Microsoft.Test\Papillon.DI.Microsoft.Test.csproj", "{120EFC8A-1135-4F23-9409-92C5F9C73C3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF008A8A-DAEC-4E4D-818F-238374C8F106} = {24C1A755-9FF1-46CB-B8FC-C180F513B264}
+		{18174137-78AB-4E18-B822-1CE31F28F2DD} = {24C1A755-9FF1-46CB-B8FC-C180F513B264}
+		{CAFC26E3-7FBC-416D-A662-20B3F24DD270} = {24C1A755-9FF1-46CB-B8FC-C180F513B264}
+		{16A95419-A50C-4063-B1D7-CBCA008F9581} = {EF008A8A-DAEC-4E4D-818F-238374C8F106}
+		{BD013019-370C-4382-BE29-33DDA469546B} = {EF008A8A-DAEC-4E4D-818F-238374C8F106}
+		{120EFC8A-1135-4F23-9409-92C5F9C73C3D} = {EF008A8A-DAEC-4E4D-818F-238374C8F106}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18174137-78AB-4E18-B822-1CE31F28F2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18174137-78AB-4E18-B822-1CE31F28F2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18174137-78AB-4E18-B822-1CE31F28F2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18174137-78AB-4E18-B822-1CE31F28F2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFC26E3-7FBC-416D-A662-20B3F24DD270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFC26E3-7FBC-416D-A662-20B3F24DD270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFC26E3-7FBC-416D-A662-20B3F24DD270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFC26E3-7FBC-416D-A662-20B3F24DD270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A95419-A50C-4063-B1D7-CBCA008F9581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A95419-A50C-4063-B1D7-CBCA008F9581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A95419-A50C-4063-B1D7-CBCA008F9581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A95419-A50C-4063-B1D7-CBCA008F9581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD013019-370C-4382-BE29-33DDA469546B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD013019-370C-4382-BE29-33DDA469546B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD013019-370C-4382-BE29-33DDA469546B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD013019-370C-4382-BE29-33DDA469546B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120EFC8A-1135-4F23-9409-92C5F9C73C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120EFC8A-1135-4F23-9409-92C5F9C73C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120EFC8A-1135-4F23-9409-92C5F9C73C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120EFC8A-1135-4F23-9409-92C5F9C73C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
