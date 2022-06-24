@@ -14,6 +14,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fakes.DI.LazyLoadAssembly.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.DI.Microsoft.Test", "dependency-injection\test\Papillon.DI.Microsoft.Test\Papillon.DI.Microsoft.Test.csproj", "{120EFC8A-1135-4F23-9409-92C5F9C73C3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{9869AAF8-5B7D-40FF-AD67-ED60D3613F58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FBDB33AE-8E63-4167-9BD0-B5CBCB7C9A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.Mediator.Abstractions", "mediator\src\Papillon.Mediator.Abstractions\Papillon.Mediator.Abstractions.csproj", "{CD79088C-E684-4928-BBD7-BDD65CBC04F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.Mediator.InMemory", "mediator\src\Papillon.Mediator.InMemory\Papillon.Mediator.InMemory.csproj", "{52F058AF-2E4A-4A4D-AF9D-B5AE7F36F782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.Mediator.InMemory.Test", "mediator\test\Papillon.Mediator.InMemory.Test\Papillon.Mediator.InMemory.Test.csproj", "{FD2F9EC4-648D-4837-AEAB-76D42D7E45EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +36,10 @@ Global
 		{16A95419-A50C-4063-B1D7-CBCA008F9581} = {EF008A8A-DAEC-4E4D-818F-238374C8F106}
 		{BD013019-370C-4382-BE29-33DDA469546B} = {EF008A8A-DAEC-4E4D-818F-238374C8F106}
 		{120EFC8A-1135-4F23-9409-92C5F9C73C3D} = {EF008A8A-DAEC-4E4D-818F-238374C8F106}
+		{FBDB33AE-8E63-4167-9BD0-B5CBCB7C9A40} = {9869AAF8-5B7D-40FF-AD67-ED60D3613F58}
+		{CD79088C-E684-4928-BBD7-BDD65CBC04F6} = {9869AAF8-5B7D-40FF-AD67-ED60D3613F58}
+		{52F058AF-2E4A-4A4D-AF9D-B5AE7F36F782} = {9869AAF8-5B7D-40FF-AD67-ED60D3613F58}
+		{FD2F9EC4-648D-4837-AEAB-76D42D7E45EA} = {FBDB33AE-8E63-4167-9BD0-B5CBCB7C9A40}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{18174137-78AB-4E18-B822-1CE31F28F2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,5 +62,17 @@ Global
 		{120EFC8A-1135-4F23-9409-92C5F9C73C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{120EFC8A-1135-4F23-9409-92C5F9C73C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{120EFC8A-1135-4F23-9409-92C5F9C73C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD79088C-E684-4928-BBD7-BDD65CBC04F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD79088C-E684-4928-BBD7-BDD65CBC04F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD79088C-E684-4928-BBD7-BDD65CBC04F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD79088C-E684-4928-BBD7-BDD65CBC04F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F058AF-2E4A-4A4D-AF9D-B5AE7F36F782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F058AF-2E4A-4A4D-AF9D-B5AE7F36F782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F058AF-2E4A-4A4D-AF9D-B5AE7F36F782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F058AF-2E4A-4A4D-AF9D-B5AE7F36F782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2F9EC4-648D-4837-AEAB-76D42D7E45EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2F9EC4-648D-4837-AEAB-76D42D7E45EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2F9EC4-648D-4837-AEAB-76D42D7E45EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2F9EC4-648D-4837-AEAB-76D42D7E45EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
