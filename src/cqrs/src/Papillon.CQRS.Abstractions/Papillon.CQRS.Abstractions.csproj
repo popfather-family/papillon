@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Papillon.CQRS</RootNamespace>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\core\src\Papillon\Papillon.csproj" />
+      <ProjectReference Include="..\..\..\mediator\src\Papillon.Mediator.Abstractions\Papillon.Mediator.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>
