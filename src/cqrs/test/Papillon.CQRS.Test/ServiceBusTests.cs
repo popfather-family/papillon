@@ -2,7 +2,6 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Moq;
-using Papillon.Mediator;
 using Xunit;
 
 namespace Papillon.CQRS;
@@ -65,7 +64,7 @@ public class ServiceBusTests
 
     private class Query : IQuery<string>
     {
-        public string ExpectedResponse { get; init; } = string.Empty;
+        public string ExpectedResponse { get; } = string.Empty;
     }
 
     private class QueryHandler : IQueryHandler<Query, string>

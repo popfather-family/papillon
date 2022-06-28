@@ -1,6 +1,4 @@
-﻿using Papillon.DI;
-
-namespace Papillon.Mediator;
+﻿namespace Papillon.Mediator;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class HandlerAttribute : TransientAttribute

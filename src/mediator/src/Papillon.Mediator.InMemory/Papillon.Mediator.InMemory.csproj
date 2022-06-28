@@ -8,7 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Papillon.Mediator.Abstractions\Papillon.Mediator.Abstractions.csproj" />
+        <ProjectReference Include="..\Papillon.Mediator.Abstractions\Papillon.Mediator.Abstractions.csproj"/>
+        <Using Include="Papillon.DI"/>
     </ItemGroup>
 
 </Project>

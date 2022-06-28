@@ -1,15 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Papillon.Mediator</RootNamespace>
         <LangVersion>default</LangVersion>
+        <TargetFramework>net6.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\dependency-injection\src\Papillon.DI.Abstractions\Papillon.DI.Abstractions.csproj" />
+        <ProjectReference Include="..\..\..\dependency-injection\src\Papillon.DI.Abstractions\Papillon.DI.Abstractions.csproj" />
+        <Using Include="Papillon.DI" />
     </ItemGroup>
 
 </Project>

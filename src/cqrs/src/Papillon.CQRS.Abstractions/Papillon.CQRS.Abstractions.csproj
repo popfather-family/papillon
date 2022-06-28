@@ -9,8 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\core\src\Papillon\Papillon.csproj" />
-      <ProjectReference Include="..\..\..\mediator\src\Papillon.Mediator.Abstractions\Papillon.Mediator.Abstractions.csproj" />
+        <ProjectReference Include="..\..\..\core\src\Papillon\Papillon.csproj"/>
+        <ProjectReference Include="..\..\..\mediator\src\Papillon.Mediator.Abstractions\Papillon.Mediator.Abstractions.csproj"/>
+        <Using Include="Papillon.Mediator"/>
     </ItemGroup>
 
 </Project>

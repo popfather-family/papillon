@@ -1,7 +1,4 @@
-﻿using Papillon.DI;
-using Papillon.Mediator;
-
-namespace Papillon.CQRS;
+﻿namespace Papillon.CQRS;
 
 [Transient]
 public class ServiceBus : IServiceBus

@@ -1,6 +1,4 @@
-﻿using Papillon.DI;
-
-namespace Papillon.Mediator;
+﻿namespace Papillon.Mediator;
 
 [Extensible]
 public interface IHandler<in TMessage>

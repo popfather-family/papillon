@@ -2,7 +2,6 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Moq;
-using Papillon.Mediator;
 using Xunit;
 
 namespace Papillon.CQRS;

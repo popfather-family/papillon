@@ -1,6 +1,4 @@
-﻿using Papillon.DI;
-
-namespace Papillon.Mediator.InMemory;
+﻿namespace Papillon.Mediator.InMemory;
 
 [Transient]
 public class MessageBus : IMessageBus
