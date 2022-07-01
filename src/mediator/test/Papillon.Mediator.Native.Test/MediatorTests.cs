@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Moq;
 using Xunit;
 
-namespace Papillon.Mediator.InMemory;
+namespace Papillon.Mediator.Native;
 
 public class MediatorTests
 {

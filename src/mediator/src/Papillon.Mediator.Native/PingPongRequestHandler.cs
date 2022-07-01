@@ -1,6 +1,6 @@
 ﻿using System.Runtime.ExceptionServices;
 
-namespace Papillon.Mediator.InMemory;
+namespace Papillon.Mediator.Native;
 
 internal abstract class PingPongRequestHandler<TResponse>
 {

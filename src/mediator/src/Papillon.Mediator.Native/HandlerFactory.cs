@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace Papillon.Mediator.InMemory;
+namespace Papillon.Mediator.Native;
 
 internal static class HandlerFactory
 {

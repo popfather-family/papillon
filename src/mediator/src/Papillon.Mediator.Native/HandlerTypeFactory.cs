@@ -1,4 +1,4 @@
-﻿namespace Papillon.Mediator.InMemory;
+﻿namespace Papillon.Mediator.Native;
 
 internal static class HandlerTypeFactory
 {

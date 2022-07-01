@@ -20,9 +20,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FBDB33AE-8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.Mediator.Abstractions", "mediator\src\Papillon.Mediator.Abstractions\Papillon.Mediator.Abstractions.csproj", "{CD79088C-E684-4928-BBD7-BDD65CBC04F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.Mediator.InMemory", "mediator\src\Papillon.Mediator.InMemory\Papillon.Mediator.InMemory.csproj", "{52F058AF-2E4A-4A4D-AF9D-B5AE7F36F782}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.Mediator.Native", "mediator\src\Papillon.Mediator.Native\Papillon.Mediator.Native.csproj", "{52F058AF-2E4A-4A4D-AF9D-B5AE7F36F782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.Mediator.InMemory.Test", "mediator\test\Papillon.Mediator.InMemory.Test\Papillon.Mediator.InMemory.Test.csproj", "{FD2F9EC4-648D-4837-AEAB-76D42D7E45EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papillon.Mediator.Native.Test", "mediator\test\Papillon.Mediator.Native.Test\Papillon.Mediator.Native.Test.csproj", "{FD2F9EC4-648D-4837-AEAB-76D42D7E45EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4207FD6C-9D7E-4741-A671-77C43AE4FD71}"
 EndProject

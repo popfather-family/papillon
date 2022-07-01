@@ -6,7 +6,7 @@
 
         <IsPackable>false</IsPackable>
 
-        <RootNamespace>Papillon.Mediator.InMemory</RootNamespace>
+        <RootNamespace>Papillon.Mediator.Native</RootNamespace>
 
         <LangVersion>default</LangVersion>
     </PropertyGroup>
@@ -26,7 +26,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Papillon.Mediator.InMemory\Papillon.Mediator.InMemory.csproj" />
+      <ProjectReference Include="..\..\src\Papillon.Mediator.Native\Papillon.Mediator.Native.csproj" />
     </ItemGroup>
 
 </Project>
