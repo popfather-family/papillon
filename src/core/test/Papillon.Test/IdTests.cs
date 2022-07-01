@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Papillon.Test;
+namespace Papillon;
 
 public class IdTests
 {
